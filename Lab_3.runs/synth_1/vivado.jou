@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Thu Jan 12 22:34:44 2023
+# Process ID: 30548
+# Current directory: D:/LaboratoareCN2/Laboratoare-CN2/Lab-3/Lab_3/Lab_3.runs/synth_1
+# Command line: vivado.exe -log RISC_V.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source RISC_V.tcl
+# Log file: D:/LaboratoareCN2/Laboratoare-CN2/Lab-3/Lab_3/Lab_3.runs/synth_1/RISC_V.vds
+# Journal file: D:/LaboratoareCN2/Laboratoare-CN2/Lab-3/Lab_3/Lab_3.runs/synth_1\vivado.jou
+# Running On: DESKTOP-89MVNGE, OS: Windows, CPU Frequency: 2208 MHz, CPU Physical cores: 6, Host memory: 8424 MB
+#-----------------------------------------------------------
+source RISC_V.tcl -notrace
