@@ -1,0 +1,227 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Thu Jan 12 22:30:03 2023
+# Process ID: 18508
+# Current directory: D:/LaboratoareCN2/Laboratoare-CN2/Lab-3/Lab_3
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent28808 D:\LaboratoareCN2\Laboratoare-CN2\Lab-3\Lab_3\Lab_3.xpr
+# Log file: D:/LaboratoareCN2/Laboratoare-CN2/Lab-3/Lab_3/vivado.log
+# Journal file: D:/LaboratoareCN2/Laboratoare-CN2/Lab-3/Lab_3\vivado.jou
+# Running On: DESKTOP-89MVNGE, OS: Windows, CPU Frequency: 2208 MHz, CPU Physical cores: 6, Host memory: 8424 MB
+#-----------------------------------------------------------
+start_gui
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_es:part0:1.3 available at D:/Vivado/inst/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/es/1.3/board.xml as part xcvc1902-vsva2197-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_es:part0:1.3 available at D:/Vivado/inst/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/es/1.3/board.xml as part xcvm1802-vsva2197-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at D:/Vivado/inst/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208_es:part0:1.0 available at D:/Vivado/inst/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/es/1.0/board.xml as part xczu48dr-fsvg1517-2-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208_es:part0:1.1 available at D:/Vivado/inst/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/es/1.1/board.xml as part xczu48dr-fsvg1517-2-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208_es:part0:1.2 available at D:/Vivado/inst/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/es/1.2/board.xml as part xczu48dr-fsvg1517-2-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at D:/Vivado/inst/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld_es:part0:1.0 available at D:/Vivado/inst/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/es/1.0/board.xml as part xczu58dr-fsvg1517-2-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216_es:part0:1.0 available at D:/Vivado/inst/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/es/1.0/board.xml as part xczu49dr-ffvf1760-2-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216_es:part0:1.1 available at D:/Vivado/inst/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/es/1.1/board.xml as part xczu49dr-ffvf1760-2-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216_es:part0:1.2 available at D:/Vivado/inst/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/es/1.2/board.xml as part xczu49dr-ffvf1760-2-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at D:/Vivado/inst/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld_es:part0:1.0 available at D:/Vivado/inst/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/es/1.0/board.xml as part xczu59dr-ffvf1760-2-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:1.0 available at D:/Vivado/inst/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/1.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+open_project D:/LaboratoareCN2/Laboratoare-CN2/Lab-3/Lab_3/Lab_3.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Xilinx/Lucrare3/Lab_3' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [Project 1-230] Project 'Lab_3.xpr' upgraded for this version of Vivado.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/inst/Vivado/2021.2/data/ip'.
+upgrade_project -migrate_output_products
+update_compile_order -fileset sources_1
+launch_runs synth_1 -jobs 6
+[Thu Jan 12 22:30:57 2023] Launched synth_1...
+Run output will be captured here: D:/LaboratoareCN2/Laboratoare-CN2/Lab-3/Lab_3/Lab_3.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 6
+[Thu Jan 12 22:31:53 2023] Launched impl_1...
+Run output will be captured here: D:/LaboratoareCN2/Laboratoare-CN2/Lab-3/Lab_3/Lab_3.runs/impl_1/runme.log
+open_run impl_1
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1464.277 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 8 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2021.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.053 . Memory (MB): peak = 1554.160 ; gain = 0.578
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.054 . Memory (MB): peak = 1554.160 ; gain = 0.578
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1964.727 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:17 ; elapsed = 00:00:11 . Memory (MB): peak = 2075.496 ; gain = 659.188
+WARNING: [Timing 38-313] There are no user specified timing constraints. Timing constraints are needed for proper timing analysis.
+reset_run synth_1
+launch_runs synth_1 -jobs 6
+[Thu Jan 12 22:34:39 2023] Launched synth_1...
+Run output will be captured here: D:/LaboratoareCN2/Laboratoare-CN2/Lab-3/Lab_3/Lab_3.runs/synth_1/runme.log
+close_design
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'RISC_V_TB'
+WARNING: [Vivado 12-12986] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/LaboratoareCN2/Laboratoare-CN2/Lab-3/Lab_3/Lab_3.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'D:/Vivado/inst/Vivado/2021.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'RISC_V_TB' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'D:/LaboratoareCN2/Laboratoare-CN2/Lab-3/Lab_3/Lab_3.sim/sim_1/behav/xsim/code.mem'
+INFO: [SIM-utils-43] Exported 'D:/LaboratoareCN2/Laboratoare-CN2/Lab-3/Lab_3/Lab_3.sim/sim_1/behav/xsim/code.mem'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/LaboratoareCN2/Laboratoare-CN2/Lab-3/Lab_3/Lab_3.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj RISC_V_TB_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/LaboratoareCN2/Laboratoare-CN2/Lab-3/Lab_3/Lab_3.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/LaboratoareCN2/Laboratoare-CN2/Lab-3/Lab_3/Lab_3.srcs/sources_1/new/ALUcontrol.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALUcontrol
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/LaboratoareCN2/Laboratoare-CN2/Lab-3/Lab_3/Lab_3.srcs/sources_1/new/EX.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EX
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/LaboratoareCN2/Laboratoare-CN2/Lab-3/Lab_3/Lab_3.srcs/sources_1/new/EX_MEM_REGISTER.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EX_MEM_REGISTER
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/LaboratoareCN2/Laboratoare-CN2/Lab-3/Lab_3/Lab_3.srcs/sources_1/new/ID.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ID
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/LaboratoareCN2/Laboratoare-CN2/Lab-3/Lab_3/Lab_3.srcs/sources_1/new/ID_EX_REGISTER.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ID_EX_REGISTER
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/LaboratoareCN2/Laboratoare-CN2/Lab-3/Lab_3/Lab_3.srcs/sources_1/new/IF.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IF
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/LaboratoareCN2/Laboratoare-CN2/Lab-3/Lab_3/Lab_3.srcs/sources_1/new/MEM_WB_REGISTER.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MEM_WB_REGISTER
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/LaboratoareCN2/Laboratoare-CN2/Lab-3/Lab_3/Lab_3.srcs/sources_1/imports/IF_ID/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/LaboratoareCN2/Laboratoare-CN2/Lab-3/Lab_3/Lab_3.srcs/sources_1/new/RISC_V.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RISC_V
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/LaboratoareCN2/Laboratoare-CN2/Lab-3/Lab_3/Lab_3.srcs/sources_1/imports/IF_ID/adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/LaboratoareCN2/Laboratoare-CN2/Lab-3/Lab_3/Lab_3.srcs/sources_1/new/control_path.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module control_path
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/LaboratoareCN2/Laboratoare-CN2/Lab-3/Lab_3/Lab_3.srcs/sources_1/new/data_memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/LaboratoareCN2/Laboratoare-CN2/Lab-3/Lab_3/Lab_3.srcs/sources_1/new/forwarding.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module forwarding
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/LaboratoareCN2/Laboratoare-CN2/Lab-3/Lab_3/Lab_3.srcs/sources_1/new/hazard_detection.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hazard_detection
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/LaboratoareCN2/Laboratoare-CN2/Lab-3/Lab_3/Lab_3.srcs/sources_1/imports/IF_ID/if_id_pipe.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IF_ID_reg
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/LaboratoareCN2/Laboratoare-CN2/Lab-3/Lab_3/Lab_3.srcs/sources_1/imports/IF_ID/imm_gen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module imm_gen
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/LaboratoareCN2/Laboratoare-CN2/Lab-3/Lab_3/Lab_3.srcs/sources_1/imports/IF_ID/instruction_memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module instruction_memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/LaboratoareCN2/Laboratoare-CN2/Lab-3/Lab_3/Lab_3.srcs/sources_1/imports/IF_ID/mux2_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux2_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/LaboratoareCN2/Laboratoare-CN2/Lab-3/Lab_3/Lab_3.srcs/sources_1/new/mux4_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux4_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/LaboratoareCN2/Laboratoare-CN2/Lab-3/Lab_3/Lab_3.srcs/sources_1/imports/IF_ID/registers.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module registers
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/LaboratoareCN2/Laboratoare-CN2/Lab-3/Lab_3/Lab_3.srcs/sources_1/imports/IF_ID/risc_v.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RISC_V_IF_ID
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/LaboratoareCN2/Laboratoare-CN2/Lab-3/Lab_3/Lab_3.srcs/sim_1/new/test_riscv.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RISC_V_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/LaboratoareCN2/Laboratoare-CN2/Lab-3/Lab_3/Lab_3.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/LaboratoareCN2/Laboratoare-CN2/Lab-3/Lab_3/Lab_3.sim/sim_1/behav/xsim'
+"xelab --incr --debug all --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot RISC_V_TB_behav xil_defaultlib.RISC_V_TB xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2021.2
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: D:/Vivado/inst/Vivado/2021.2/bin/unwrapped/win64.o/xelab.exe --incr --debug all --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot RISC_V_TB_behav xil_defaultlib.RISC_V_TB xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.PC
+Compiling module xil_defaultlib.instruction_memory
+Compiling module xil_defaultlib.adder
+Compiling module xil_defaultlib.mux2_1
+Compiling module xil_defaultlib.IF
+Compiling module xil_defaultlib.IF_ID_reg
+Compiling module xil_defaultlib.registers
+Compiling module xil_defaultlib.imm_gen
+Compiling module xil_defaultlib.ID
+Compiling module xil_defaultlib.RISC_V_IF_ID
+Compiling module xil_defaultlib.hazard_detection
+Compiling module xil_defaultlib.control_path
+Compiling module xil_defaultlib.ID_EX_REGISTER
+Compiling module xil_defaultlib.ALUcontrol
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.mux4_1
+Compiling module xil_defaultlib.EX
+Compiling module xil_defaultlib.forwarding
+Compiling module xil_defaultlib.EX_MEM_REGISTER
+Compiling module xil_defaultlib.data_memory
+Compiling module xil_defaultlib.MEM_WB_REGISTER
+Compiling module xil_defaultlib.RISC_V
+Compiling module xil_defaultlib.RISC_V_TB
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot RISC_V_TB_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '5' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/LaboratoareCN2/Laboratoare-CN2/Lab-3/Lab_3/Lab_3.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "RISC_V_TB_behav -key {Behavioral:sim_1:Functional:RISC_V_TB} -tclbatch {RISC_V_TB.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source RISC_V_TB.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+$finish called at time : 210 ns : File "D:/LaboratoareCN2/Laboratoare-CN2/Lab-3/Lab_3/Lab_3.srcs/sim_1/new/test_riscv.v" Line 70
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'RISC_V_TB_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:07 ; elapsed = 00:00:14 . Memory (MB): peak = 2176.293 ; gain = 0.000
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'RISC_V_TB'
+WARNING: [Vivado 12-12986] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/LaboratoareCN2/Laboratoare-CN2/Lab-3/Lab_3/Lab_3.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'D:/Vivado/inst/Vivado/2021.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'RISC_V_TB' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'D:/LaboratoareCN2/Laboratoare-CN2/Lab-3/Lab_3/Lab_3.sim/sim_1/behav/xsim/code.mem'
+INFO: [SIM-utils-43] Exported 'D:/LaboratoareCN2/Laboratoare-CN2/Lab-3/Lab_3/Lab_3.sim/sim_1/behav/xsim/code.mem'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/LaboratoareCN2/Laboratoare-CN2/Lab-3/Lab_3/Lab_3.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj RISC_V_TB_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'RISC_V_TB'
+WARNING: [Vivado 12-12986] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/LaboratoareCN2/Laboratoare-CN2/Lab-3/Lab_3/Lab_3.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/LaboratoareCN2/Laboratoare-CN2/Lab-3/Lab_3/Lab_3.sim/sim_1/behav/xsim'
+"xelab --incr --debug all --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot RISC_V_TB_behav xil_defaultlib.RISC_V_TB xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2021.2
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: D:/Vivado/inst/Vivado/2021.2/bin/unwrapped/win64.o/xelab.exe --incr --debug all --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot RISC_V_TB_behav xil_defaultlib.RISC_V_TB xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Time resolution is 1 ps
+$finish called at time : 210 ns : File "D:/LaboratoareCN2/Laboratoare-CN2/Lab-3/Lab_3/Lab_3.srcs/sim_1/new/test_riscv.v" Line 70
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 2176.293 ; gain = 0.000
